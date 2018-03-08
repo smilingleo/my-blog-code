@@ -10,6 +10,7 @@ const Header = () => (
     style={{
       background: '#224466',
       marginBottom: '1.45rem',
+      height: '100px',
     }}
   >
     <div
@@ -25,8 +26,10 @@ const Header = () => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            display: 'flex',
           }}
         >
+          <img src="/static/smilingleo.png" style={{height: '50px'}}/>&nbsp;
           Smilingleo's Blog
         </Link>
       </h1>
