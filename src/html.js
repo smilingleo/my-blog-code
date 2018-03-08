@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -32,21 +32,25 @@ module.exports = class HTML extends React.Component {
           {this.props.headComponents}
           {css}
 
-          <link rel="stylesheet" href="/css/prettify.css"/>
-          
-          <script src="/javascripts/jquery-1.9.0.min.js" type="text/javascript"></script>
-          <script src="/javascripts/jquery_plantuml.js" type="text/javascript"></script>
-          <script src="/javascripts/prettify.js" type="text/javascript"></script>
+          <script
+            src="/javascripts/jquery-1.9.0.min.js"
+            type="text/javascript"
+          />
+          <script
+            src="/javascripts/jquery_plantuml.js"
+            type="text/javascript"
+          />
+          <script src="/javascripts/prettify.js" type="text/javascript" />
 
-          <script src="/javascripts/main.js" type="text/javascript"></script>
-          <script   dangerouslySetInnerHTML={{
-            __html: `
+          <script src="/javascripts/main.js" type="text/javascript" />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               var wsUri = 'ws://smilingleo.herokuapp.com/repl/byWebSocket';
               window.onload = init;
               `,
             }}
           />
-
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

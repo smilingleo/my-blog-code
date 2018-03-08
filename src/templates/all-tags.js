@@ -11,9 +11,7 @@ const AllTags = ({ pathContext }) => {
           {tags.map(tag => {
             return (
               <li>
-                <Link to={`/tags/${tag}`}>
-                  {tag}
-                </Link>
+                <Link to={`/tags/${tag}`}>{tag}</Link>
               </li>
             )
           })}

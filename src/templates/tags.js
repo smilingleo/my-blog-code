@@ -7,18 +7,14 @@ const Tags = ({ pathContext }) => {
   if (posts) {
     return (
       <div>
-        <span>
-          Posts about {tagName}:
-        </span>
+        <span>Posts about {tagName}:</span>
 
         <ul>
           {posts.map(post => {
             return (
               <li>
-                <Link to={post.frontmatter.path}>
-                  {post.frontmatter.title}
-                </Link>
-              </li>  
+                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+              </li>
             )
           })}
         </ul>
