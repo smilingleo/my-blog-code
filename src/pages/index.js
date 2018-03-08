@@ -5,20 +5,20 @@ const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
-      {posts.map(({ node: post }) => {
+      {posts.map(({ node: post }, pIdx) => {
         const { frontmatter } = post
-
+        
         return (
-          <div>
+          <div key={`post_${pIdx}`}>
             <h2>
-              <Link to={frontmatter.path} onClick={() => setTimeout(init, 100)}>{frontmatter.title}</Link>
+              <Link to={frontmatter.path}>{frontmatter.title}</Link>
             </h2>
             <p>{frontmatter.date}</p>
             <p>{frontmatter.excerpt}</p>
             <ul>
-              {post.frontmatter.tags.map(tag => {
+              {post.frontmatter.tags.map((tag, tagIdx) => {
                 return (
-                  <li>
+                  <li key={`tag_${pIdx}_${tagIdx}`}>
                     <Link to={`/tags/${tag}`}>{tag}</Link>
                   </li>
                 )
