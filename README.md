@@ -1,13 +1,19 @@
-# gatsby-starter-default
-The default Gatsby starter
+# My Personal Blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Built on top of `Gatsby`.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Steps to Deploy
+
+1. Create markdown format file under `src/pages`
+
+Note: The `date` property need to follow ISO-8601 format.
+
+2. Run `yarn deploy`
+
+3. Deploy
+
+```bash
+cd public
+git commit -am 'new blog'
+git push origin master
 ```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
