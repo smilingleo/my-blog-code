@@ -1,6 +1,6 @@
 ---
 path: "/2018/enable-comments-for-gatsby-blog"
-date: "2018-03-12T10:07:43.000+08:00"
+date: "2018-03-12T10:07:43.000+08"
 title: "为你的Gatsby博客添加评论功能"
 tags: ['blog']
 excerpt: "Gatsby打造的博客已经很不错了，但是缺少一个评论功能。本文简单介绍如何集成Disqus评论服务到你的博客站点。"
