@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './templates/footer'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -61,6 +62,10 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+
+          <hr />
+          
+          <Footer />
         </body>
       </html>
     )

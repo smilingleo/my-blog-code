@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Comments from './comments'
 
 class Template extends React.Component {
   constructor(props) {
@@ -45,7 +46,9 @@ class Template extends React.Component {
               </Link>
             )}
           </p>
-        </div>      
+        </div>
+        <hr />
+        <Comments title={title} />
       </div>
     )  
   }
