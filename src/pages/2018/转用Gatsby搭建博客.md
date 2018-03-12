@@ -1,7 +1,7 @@
 ---
 path: "/2018/blog-with-gatsby"
 title: "转用Gatsby打造基于github的博客站点"
-date: "2018-03-08T17:00:00.000+08"
+date: "2018-03-08T17:01:00.000+08:00"
 tags: ['blog', 'github', 'gatsby']
 excerpt: "如何用Gatsby打造一个博客"
 ---

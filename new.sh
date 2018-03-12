@@ -14,7 +14,7 @@ TITLE=$1
 URL=$2
 
 _YEAR=`date "+%Y"`
-_DATE=`date "+%Y-%m-%dT%H:%M:%S.000+08"`
+_DATE=`date "+%Y-%m-%dT%H:%M:%S.000+08:00"`
 PATH="src/pages/$_YEAR"
 FILE="$PATH/$TITLE.md"
 

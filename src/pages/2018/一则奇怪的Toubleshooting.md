@@ -1,7 +1,7 @@
 ---
 path: "/2018/skipper-sni-domain-fronting"
 title:  "记一次奇怪的troubleshooting"
-date: "2018-03-08T08:30:00.000+08"
+date: "2018-03-08T08:30:00.000+08:00"
 tags: ['skipper', 'SNI', 'domain fronting']
 excerpt: "在Skipper转发请求到一个https站点的时候，返回莫名404."
 ---

@@ -1,6 +1,6 @@
 ---
 path: "/2018/support-pagination-for-gatsby-blog"
-date: "2018-03-12T11:31:26.000+08"
+date: "2018-03-12T11:31:26.000+08:00"
 title: "为Gatsby博客添加分页功能"
 tags: ['blog', 'gatsby']
 excerpt: "根据Egghead上的教程，做出的博客站点有个缺陷，那就是没有分页功能，对于勤奋的博主来说，在一个页面上显示所有文章列表有点不完美，这里我们改造一下，加入分页功能。"

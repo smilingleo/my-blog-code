@@ -2,6 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 import PaginateLink from './paginateLink'
 
+const formatDate = (dateStr) => {
+  const date = new Date(Date.parse(dateStr));
+  return `${date.toLocaleDateString()}  ${date.toLocaleTimeString()}`;
+}
+
 const IndexPage = ({ data, pathContext }) => {
   // for pagination
   const { group, index, first, last } = pathContext;
@@ -15,13 +20,13 @@ const IndexPage = ({ data, pathContext }) => {
       <div className="posts">
       {group.map(({ node: post }, pIdx) => {
         const { frontmatter } = post
-
+        console.log(Date.parse(frontmatter.date));
         return (
           <div key={`post_${pIdx}`}>
             <h2>
               <Link to={frontmatter.path}>{frontmatter.title}</Link>
             </h2>
-            <p>{frontmatter.date}</p>
+            <p>{formatDate(frontmatter.date)}</p>
             <p>{frontmatter.excerpt}</p>
             <ul>
               {post.frontmatter.tags.map((tag, tagIdx) => {
