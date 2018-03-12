@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import PaginateLink from './paginateLink'
+const { PageSize } = require('../constant')
 
 const formatDate = (dateStr) => {
   const date = new Date(Date.parse(dateStr));
@@ -46,7 +47,7 @@ const IndexPage = ({ data, pathContext }) => {
             <PaginateLink tag={ first } url={ prevUrl } text="Prev Page" />
         </div>
 
-        <p>{index} of { Math.ceil(total/12)}</p>
+        <p>{index} of { Math.ceil(total/PageSize)}</p>
 
         <div className="nextLink">
             <PaginateLink tag={ last } url={ nextUrl } text="Next Page" />

@@ -9,4 +9,4 @@ const PaginateLink = ({ tag, url, text }) => {
     }
 }
 
-export default PaginateLink
+export default PaginateLink;

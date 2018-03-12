@@ -1,5 +1,6 @@
 const path = require('path')
 const pagination = require('gatsby-paginate');
+const { PageSize } = require('./src/constant');
 
 const createTagPages = (createPage, posts) => {
   const tagPageTemplate = path.resolve(`src/templates/tags.js`)
@@ -78,7 +79,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges: posts,
         createPage: createPage,
         pageTemplate: "src/templates/index.js",
-        pageLength: 10
+        pageLength: PageSize
       });
 
 
