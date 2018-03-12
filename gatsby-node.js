@@ -1,4 +1,5 @@
 const path = require('path')
+const pagination = require('gatsby-paginate');
 
 const createTagPages = (createPage, posts) => {
   const tagPageTemplate = path.resolve(`src/templates/tags.js`)
@@ -71,6 +72,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       const posts = result.data.allMarkdownRemark.edges
 
       createTagPages(createPage, posts)
+
+      // default pagination to 10.
+      pagination({
+        edges: posts,
+        createPage: createPage,
+        pageTemplate: "src/templates/index.js",
+        pageLength: 10
+      });
+
 
       posts.forEach(({node}, index) => {
         createPage({

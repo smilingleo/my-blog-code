@@ -724,3 +724,31 @@ li.L7,
 li.L9 {
   background: #eee;
 }
+
+.paginatation {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+
+.nextLink span, .prevLink span {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0 1rem;
+  padding: .5rem 1.5rem;
+}
+
+.nextLink span, .prevLink span {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0 1rem;
+  padding: .5rem 1.5rem;
+}

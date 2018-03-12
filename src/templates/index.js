@@ -1,13 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import PaginateLink from './paginateLink'
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, pathContext }) => {
+  // for pagination
+  const { group, index, first, last } = pathContext;
+  const prevUrl = index - 1 == 1 ? "" : (index - 1).toString();
+  const nextUrl = (index + 1).toString();
+  const total = data.allMarkdownRemark.edges.length;
+
   const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
-      {posts.map(({ node: post }, pIdx) => {
+      <div className="posts">
+      {group.map(({ node: post }, pIdx) => {
         const { frontmatter } = post
-        
+
         return (
           <div key={`post_${pIdx}`}>
             <h2>
@@ -27,6 +35,18 @@ const IndexPage = ({ data }) => {
           </div>
         )
       })}
+      </div>
+      <div className="paginatation">
+        <div className="prevLink">
+            <PaginateLink tag={ first } url={ prevUrl } text="Prev Page" />
+        </div>
+
+        <p>{index} of { Math.ceil(total/12)}</p>
+
+        <div className="nextLink">
+            <PaginateLink tag={ last } url={ nextUrl } text="Next Page" />
+        </div>
+      </div>      
     </div>
   )
 }

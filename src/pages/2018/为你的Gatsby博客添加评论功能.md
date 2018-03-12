@@ -15,7 +15,7 @@ Gatsby打造的博客已经很不错了，但是缺少一个评论功能。
 首先，添加`react-disqus-thread`组件。
 
 ```
-yarn install react-disqus-thread
+yarn add react-disqus-thread
 ```
 
 之后，新建一个`Comments`的React组件。
@@ -60,6 +60,7 @@ yarn install react-disqus-thread
     <Comments title={title} />
 
 搞定.
+
 
 ## References
 1. [React Disqus thread component](https://github.com/mzabriskie/react-disqus-thread)

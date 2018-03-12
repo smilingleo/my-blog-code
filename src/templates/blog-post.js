@@ -5,14 +5,14 @@ import Comments from './comments'
 
 class Template extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
-  
+
   /*
   * Once the blog page is loaded, run init() to prettyprint the code.
   */
   componentDidMount() {
-    init();
+    init()
   }
 
   render() {
@@ -20,17 +20,17 @@ class Template extends React.Component {
     const { frontmatter, html } = post
     const { title, date } = frontmatter
     const { next, prev } = this.props.pathContext
-  
+
     return (
       <div>
         <Helmet title={`${frontmatter.title} - My Blog`} />
-  
+
         <div>
           <h1>{title}</h1>
           <h3>{date}</h3>
-  
+
           <div dangerouslySetInnerHTML={{ __html: html }} />
-  
+
           <hr />
           <p>
             {prev && (
@@ -50,7 +50,7 @@ class Template extends React.Component {
         <hr />
         <Comments title={title} />
       </div>
-    )  
+    )
   }
 }
 

@@ -64,7 +64,7 @@ module.exports = class HTML extends React.Component {
           {this.props.postBodyComponents}
 
           <hr />
-          
+
           <Footer />
         </body>
       </html>

@@ -29,7 +29,7 @@ const Header = () => (
             display: 'flex',
           }}
         >
-          <img src="/static/smilingleo.png" style={{height: '50px'}}/>&nbsp;
+          <img src="/static/smilingleo.png" style={{ height: '50px' }} />&nbsp;
           Smilingleo's Blog
         </Link>
       </h1>
@@ -61,7 +61,7 @@ const TemplateWrapper = ({ children }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.func,
 }
 
 export default TemplateWrapper
