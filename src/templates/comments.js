@@ -16,7 +16,7 @@ class Comments extends React.Component {
     fetch(SlackAPI, {
       body: JSON.stringify(data),
       headers: {
-        'content-type': 'application/json'
+        'Content-Type': 'application/json'
       },
       method: 'POST',
       mode: 'cors'
