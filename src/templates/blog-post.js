@@ -48,7 +48,7 @@ class Template extends React.Component {
           </p>
         </div>
         <hr />
-        <Comments title={title} />
+        <Comments title={title} path={frontmatter.path} />
       </div>
     )
   }

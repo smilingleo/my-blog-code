@@ -17,3 +17,11 @@ cd public
 git commit -am 'new blog'
 git push origin master
 ```
+
+## To create a new blog post
+
+```bash
+./new.sh <title> <pathname>
+```
+
+For example, `./new.sh 'Sidecar pattern' sidecar-pattern`.

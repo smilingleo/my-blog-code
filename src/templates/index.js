@@ -20,8 +20,7 @@ const IndexPage = ({ data, pathContext }) => {
     <div>
       <div className="posts">
       {group.map(({ node: post }, pIdx) => {
-        const { frontmatter } = post
-        console.log(Date.parse(frontmatter.date));
+        const { frontmatter } = post        
         return (
           <div key={`post_${pIdx}`}>
             <h2>
