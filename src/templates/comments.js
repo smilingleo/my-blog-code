@@ -1,6 +1,6 @@
 const React = require('react')
 const ReactDisqusThread = require('react-disqus-thread')
-const { SlackAPI } = require('../constant');
+const { SlackAPI, MyDomain } = require('../constant');
 
 class Comments extends React.Component {
   constructor(props) {
@@ -8,7 +8,7 @@ class Comments extends React.Component {
   }
 
   handleNewComment(comment) {
-    let msg = `New comment on: ${comment.blog}\n\n${comment.text}\n\nhttps://blog.smilingleo.net${comment.path}#comment-${comment.id}`;
+    let msg = `New comment on: ${comment.blog}\n\n${comment.text}\n\n${MyDomain}${comment.path}#comment-${comment.id}`;
     const data = {
       comment: msg
     };
