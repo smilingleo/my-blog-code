@@ -1,5 +1,5 @@
 ---
-path: "/2013/jq"
+path: "/2016/jq"
 date: "2016-03-25T19:16:45.000Z"
 title: "JSON解析利器---JQ"
 tags: ['bash','jq','json']
@@ -51,3 +51,9 @@ excerpt: "在API first的时代，json作为最常用的格式，充斥着程序
 * `将上面两个命令用`,`连接，表示将前面的输入同时传递给这两个命令
 * 用`[]`将上面两个命令包起来，表示将两个命令的输出结果作为数组中的一个item
 * `@csv`将前面的数组输出转换为csv格式。
+
+### 动态key
+
+一些json对象会用动态key，比如id，这时你会想到如果能用JSONPath的方式来搜索某个path段改多好，不用担心，参考这个：[For JSONPath users](https://github.com/stedolan/jq/wiki/For-JSONPath-users)
+
+比如： `..|objects.name`， 这里 `..`将产生一个stream，遍历所有json对象及子对象，然后用`objects`来引用。
