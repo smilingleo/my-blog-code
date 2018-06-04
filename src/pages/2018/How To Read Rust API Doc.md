@@ -90,7 +90,12 @@ So, actually, it is implemented for `F: Future` already.
 What I hope is actually something like Java(or other strong typed languages) does, given a `struct`:
 
 * we want to know all the `trait`s it implemented.
+
+    You can find them in the left panel, and also a list in the main area.
+
 * we want to know all the methods it has, and the methods implemented for all the traits.
+
+    For each trait in the list in main area, there is a `[+]`, you need to click and unfold it before you can see all the methods, that's the trick.
 
 I love Rust, hope the tooling can get better and better over time.
 
