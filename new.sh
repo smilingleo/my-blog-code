@@ -20,7 +20,7 @@ FILE="$PATH/$TITLE.md"
 
 # in case no folder existed.
 if [ ! -d "$PATH" ]; then
-    mkdir "$PATH"
+    mkdir -p "$PATH"
 fi
 
 if [ -f "$FILE" ]; then
