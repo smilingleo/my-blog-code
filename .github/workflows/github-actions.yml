@@ -4,22 +4,24 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - name: get env
+        env:
+          page_secret: ${{ secrets.PAGE_SECRET }}
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out blog code
         uses: actions/checkout@v3
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-
       - name: Check out site code
         uses: actions/checkout@v3
         with:
           repository: 'smilingleo/smilingleo.github.io'
-          ssh-key: '${{ secrets.PAGE_SECRET }}'
+          ssh-key: "$page_secret"
           path: 'public'
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
-          echo '${{ secrets.PAGE_SECRET }}'
+          echo "$page_secret"
           npm i
           #find node_modules -iname graphql
           rm -rf node_modules/gatsby/node_modules/graphql
