@@ -16,14 +16,9 @@ jobs:
         with:
           repository: 'smilingleo/smilingleo.github.io'
           path: 'public'
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
-          node --version
-          npm --version
-          yarn --version
           npm i
+          rm -rf node_modules/graphql-skip-limit/node_modules/graphql
           yarn deploy
       - run: echo "🍏 This job's status is ${{ job.status }}."
