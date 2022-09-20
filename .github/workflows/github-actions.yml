@@ -18,8 +18,7 @@ jobs:
           path: '${{ github.repository }}/my-blog-code/public'
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
-          ls ${{ github.workspace }}/my-blog-code/public
+          ls -Rl ${{ github.workspace }}
         
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
