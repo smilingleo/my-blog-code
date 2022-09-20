@@ -19,6 +19,6 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
           npm i
-          rm -rf node_modules/graphql-skip-limit/node_modules/graphql
+          find node_modules -iname graphql
           yarn deploy
       - run: echo "🍏 This job's status is ${{ job.status }}."
