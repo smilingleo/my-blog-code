@@ -33,4 +33,8 @@ jobs:
           git remote -v
           cd ..
           yarn deploy
+          cd public
+          git add .
+          git commit -m 'new post'
+          git push origin master
       - run: echo "🍏 This job's status is ${{ job.status }}."
