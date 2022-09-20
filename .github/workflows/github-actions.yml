@@ -14,12 +14,12 @@ jobs:
       - name: Check out site code
         uses: actions/checkout@v3
         with:
-          repository: 'smilingleo/smilingleo.github.io'
-          path: '${{ github.repository }}/public'
+          repository: 'smilingleo.github.io'
+          path: '${{ github.repository }}/my-blog-code/public'
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          ls ${{ github.workspace }}/public
+          ls ${{ github.workspace }}/my-blog-code/public
         
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
