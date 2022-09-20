@@ -24,6 +24,9 @@ jobs:
           rm -rf node_modules/graphql-skip-limit/node_modules/graphql
           rm -rf node_modules/relay-compiler/node_modules/graphql
           git config --global user.email "leo.wei.liu@gmail.com"
-          git config --global user.name "Leo"          
+          git config --global user.name "smilingleo"          
+          cd public
+          git remove -v
+          cd ..
           yarn deploy
       - run: echo "🍏 This job's status is ${{ job.status }}."
