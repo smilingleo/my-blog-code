@@ -19,6 +19,7 @@ jobs:
           path: 'public'
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
+          echo '${{ secrets.PAGE_SECRET }}'
           npm i
           #find node_modules -iname graphql
           rm -rf node_modules/gatsby/node_modules/graphql
