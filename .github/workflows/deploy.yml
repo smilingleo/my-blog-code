@@ -2,29 +2,13 @@ name: Deploy blog content
 
 on: [push]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Build with Yarn
-        run: |
-          npm i
-          #find node_modules -iname graphql
-          rm -rf node_modules/gatsby/node_modules/graphql
-          rm -rf node_modules/graphql-skip-limit/node_modules/graphql
-          rm -rf node_modules/relay-compiler/node_modules/graphql          
-          npm run deploy
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.PAT_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
