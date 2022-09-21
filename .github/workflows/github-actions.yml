@@ -19,8 +19,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: set git info
+        run: |
+          git config --global init.defaultBranch master
+          git config --global user.email "leo.wei.liu@gmail.com"
+          git config --global user.name "smilingleo"        
+        
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
       - name: Build with Yarn
         run: |
           npm i
