@@ -69,8 +69,8 @@
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js.map"
     ],
     "path---tags": [
-      "path---tags-0e3a260cee9a4e5ed816.js",
-      "path---tags-0e3a260cee9a4e5ed816.js.map"
+      "path---tags-1ce3f577aabb39245133.js",
+      "path---tags-1ce3f577aabb39245133.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -87,6 +87,10 @@
     "path---tags-设计": [
       "path---tags-设计-54ff8fabfd2471a54f7c.js",
       "path---tags-设计-54ff8fabfd2471a54f7c.js.map"
+    ],
+    "path---2022-redis-commands": [
+      "path---2022-redis-commands-202fa10977d79d487aeb.js",
+      "path---2022-redis-commands-202fa10977d79d487aeb.js.map"
     ],
     "path---2016-function-covariant-contravariant": [
       "path---2016-function-covariant-contravariant-b72b776b91c70f6aa196.js",
@@ -136,6 +140,10 @@
       "path---tags-背单词-f2088edd2168ead84594.js",
       "path---tags-背单词-f2088edd2168ead84594.js.map"
     ],
+    "path---tags-redis": [
+      "path---tags-redis-00f861b784cfc93b4115.js",
+      "path---tags-redis-00f861b784cfc93b4115.js.map"
+    ],
     "path---2015-mysql-replication-on-docker": [
       "path---2015-mysql-replication-on-docker-3166a4085c8001af6e0c.js",
       "path---2015-mysql-replication-on-docker-3166a4085c8001af6e0c.js.map"
@@ -149,8 +157,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-8cd71220788dfe748482.js",
-      "path---index-8cd71220788dfe748482.js.map"
+      "path---index-d2524497daa9ce6f4919.js",
+      "path---index-d2524497daa9ce6f4919.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -173,8 +181,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-02ce17feeb4d56c4f0ce.js",
-      "path---2-02ce17feeb4d56c4f0ce.js.map"
+      "path---2-21fbc09c31771549edeb.js",
+      "path---2-21fbc09c31771549edeb.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -205,8 +213,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-30f66b1f24d7dac7ad25.js",
-      "path---3-30f66b1f24d7dac7ad25.js.map"
+      "path---3-61ae1f0f0ef6f6d4831a.js",
+      "path---3-61ae1f0f0ef6f6d4831a.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -261,9 +269,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-7f2a36c618055cc7dc30.js",
+      "app-2351557d71144306dc0f.js",
       "build-js-styles.css",
-      "app-7f2a36c618055cc7dc30.js.map",
+      "app-2351557d71144306dc0f.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
