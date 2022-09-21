@@ -14,13 +14,10 @@ jobs:
 
       - name: Check out blog code
         uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - name: Check out site code
-        uses: actions/checkout@v3
-        with:
-          repository: 'smilingleo/smilingleo.github.io'
-          token: ${{ secrets.PAT_TOKEN }}
-          path: 'public'
+      - run: |
+          echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+          git clone https://${{ secrets.PAT_TOKEN }}@github.com/smilingleo/smilingleo.github.io.git ./public
+
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: |
           npm i
