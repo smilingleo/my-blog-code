@@ -28,10 +28,6 @@
       "path---2013-monad-726e8100eb415ffea252.js",
       "path---2013-monad-726e8100eb415ffea252.js.map"
     ],
-    "path---2022-test": [
-      "path---2022-test-b2178d2a42d2e93edeb2.js",
-      "path---2022-test-b2178d2a42d2e93edeb2.js.map"
-    ],
     "path---tags-serverless": [
       "path---tags-serverless-1ff6642dba2fb2802752.js",
       "path---tags-serverless-1ff6642dba2fb2802752.js.map"
@@ -65,8 +61,8 @@
       "path---tags-markdown-f756f8423fb6f37e9340.js.map"
     ],
     "path---tags-tag-1": [
-      "path---tags-tag-1-8f98824172a693dc08b4.js",
-      "path---tags-tag-1-8f98824172a693dc08b4.js.map"
+      "path---tags-tag-1-8b70d1db1f55c56e1409.js",
+      "path---tags-tag-1-8b70d1db1f55c56e1409.js.map"
     ],
     "component---src-templates-tags-js": [
       "component---src-templates-tags-js-9f33bf6d5da76dc9fc95.js",
@@ -77,8 +73,8 @@
       "path---2018-enable-comments-for-gatsby-blog-6f1b3086a51dc32151a3.js.map"
     ],
     "path---tags": [
-      "path---tags-2330bf917062542bcfd3.js",
-      "path---tags-2330bf917062542bcfd3.js.map"
+      "path---tags-93cf8bf1f981f79caf68.js",
+      "path---tags-93cf8bf1f981f79caf68.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -95,6 +91,10 @@
     "path---tags-设计": [
       "path---tags-设计-7ec4680b34201356d73d.js",
       "path---tags-设计-7ec4680b34201356d73d.js.map"
+    ],
+    "path---2022-redis-commands": [
+      "path---2022-redis-commands-b347fb254900650dce7f.js",
+      "path---2022-redis-commands-b347fb254900650dce7f.js.map"
     ],
     "path---2016-function-covariant-contravariant": [
       "path---2016-function-covariant-contravariant-982e97e853ecbc1dbd95.js",
@@ -132,6 +132,10 @@
       "component---src-layouts-index-js-ba61a6cb0312885c696f.js",
       "component---src-layouts-index-js-ba61a6cb0312885c696f.js.map"
     ],
+    "path---tags-tag-2": [
+      "path---tags-tag-2-f71a222ed4147aa4ad21.js",
+      "path---tags-tag-2-f71a222ed4147aa4ad21.js.map"
+    ],
     "path---tags-开发环境": [
       "path---tags-开发环境-bc0d0a7c79bff16cebb3.js",
       "path---tags-开发环境-bc0d0a7c79bff16cebb3.js.map"
@@ -157,8 +161,8 @@
       "path---tags-microservices-d0d8dab4bd96a67dfe6c.js.map"
     ],
     "path---index": [
-      "path---index-899a750f4974a36f684b.js",
-      "path---index-899a750f4974a36f684b.js.map"
+      "path---index-e8987caeb7f99d8de09d.js",
+      "path---index-e8987caeb7f99d8de09d.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-e8b5d3a893ac14ff1e45.js",
@@ -181,8 +185,8 @@
       "path---tags-微服务-a9afa13b314842841f4c.js.map"
     ],
     "path---2": [
-      "path---2-e861e7a9151e77ff3fba.js",
-      "path---2-e861e7a9151e77ff3fba.js.map"
+      "path---2-f200e595e32269ea216d.js",
+      "path---2-f200e595e32269ea216d.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-17f7d57e63eb768e8848.js",
@@ -213,8 +217,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-3da5179accf0a69b0ebc.js",
-      "path---3-3da5179accf0a69b0ebc.js.map"
+      "path---3-aa8db55a85838ca30165.js",
+      "path---3-aa8db55a85838ca30165.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-2c9e2e3de7de784ccf88.js",
@@ -260,6 +264,10 @@
       "path---tags-tokio-090267953a01589b8dba.js",
       "path---tags-tokio-090267953a01589b8dba.js.map"
     ],
+    "path---tags-tag-3": [
+      "path---tags-tag-3-fd1e9fd47db05be9459b.js",
+      "path---tags-tag-3-fd1e9fd47db05be9459b.js.map"
+    ],
     "path---2013-map-flatmap-for": [
       "path---2013-map-flatmap-for-bfbd1d7800b1c3ee7cee.js",
       "path---2013-map-flatmap-for-bfbd1d7800b1c3ee7cee.js.map"
@@ -269,9 +277,9 @@
       "path---2018-how-to-read-rust-api-doc-5ad1a532fd4cebe6e6a6.js.map"
     ],
     "app": [
-      "app-61beff8a2cb2bdc4fb18.js",
+      "app-fbce12cbb2e4898252c3.js",
       "build-js-styles.css",
-      "app-61beff8a2cb2bdc4fb18.js.map",
+      "app-fbce12cbb2e4898252c3.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
