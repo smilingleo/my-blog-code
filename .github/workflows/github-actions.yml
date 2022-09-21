@@ -24,6 +24,10 @@ jobs:
       - name: Build with Yarn
         run: |
           npm i
+          #find node_modules -iname graphql
+          rm -rf node_modules/gatsby/node_modules/graphql
+          rm -rf node_modules/graphql-skip-limit/node_modules/graphql
+          rm -rf node_modules/relay-compiler/node_modules/graphql          
           yarn deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
