@@ -30,7 +30,9 @@ jobs:
           git remote -v
           cd ..
           yarn deploy
+      - run: |
           cd public
+          echo `pwd`
           git add .
           git commit -m 'new post'
           git push origin master
