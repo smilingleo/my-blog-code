@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Leo Liu <leo.wei.liu@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.45",
+    "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.17",
     "gatsby-paginate": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.5",
