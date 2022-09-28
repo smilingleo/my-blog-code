@@ -44,6 +44,10 @@
       "path---tags-playframework-061afe95b7b117e962ca.js",
       "path---tags-playframework-061afe95b7b117e962ca.js.map"
     ],
+    "path---tags-rsync": [
+      "path---tags-rsync-09d86026a964284b550c.js",
+      "path---tags-rsync-09d86026a964284b550c.js.map"
+    ],
     "path---tags-bash": [
       "path---tags-bash-81c01c05215f5dda73ed.js",
       "path---tags-bash-81c01c05215f5dda73ed.js.map"
@@ -64,13 +68,17 @@
       "component---src-templates-tags-js-9f33bf6d5da76dc9fc95.js",
       "component---src-templates-tags-js-9f33bf6d5da76dc9fc95.js.map"
     ],
+    "path---2022-thread-model-of-rsync-based-distributed-file-system-helix-cluster": [
+      "path---2022-thread-model-of-rsync-based-distributed-file-system-helix-cluster-a4721c3edf817239216c.js",
+      "path---2022-thread-model-of-rsync-based-distributed-file-system-helix-cluster-a4721c3edf817239216c.js.map"
+    ],
     "path---2018-enable-comments-for-gatsby-blog": [
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js",
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js.map"
     ],
     "path---tags": [
-      "path---tags-1ce3f577aabb39245133.js",
-      "path---tags-1ce3f577aabb39245133.js.map"
+      "path---tags-6e9d89867da8a1766a64.js",
+      "path---tags-6e9d89867da8a1766a64.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -157,8 +165,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-d2524497daa9ce6f4919.js",
-      "path---index-d2524497daa9ce6f4919.js.map"
+      "path---index-2f901e455f47ee3d0a0a.js",
+      "path---index-2f901e455f47ee3d0a0a.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -181,8 +189,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-21fbc09c31771549edeb.js",
-      "path---2-21fbc09c31771549edeb.js.map"
+      "path---2-dd04617da197e4f80826.js",
+      "path---2-dd04617da197e4f80826.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -213,8 +221,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-61ae1f0f0ef6f6d4831a.js",
-      "path---3-61ae1f0f0ef6f6d4831a.js.map"
+      "path---3-5b77a6b03e150d7657b8.js",
+      "path---3-5b77a6b03e150d7657b8.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -252,6 +260,10 @@
       "path---2016-jq-f43bced59a834fe526b8.js",
       "path---2016-jq-f43bced59a834fe526b8.js.map"
     ],
+    "path---tags-distributed": [
+      "path---tags-distributed-af837ede1400b41bffe3.js",
+      "path---tags-distributed-af837ede1400b41bffe3.js.map"
+    ],
     "path---tags-微信小程序": [
       "path---tags-微信小程序-66036a7a2ab390ceffaf.js",
       "path---tags-微信小程序-66036a7a2ab390ceffaf.js.map"
@@ -269,9 +281,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-2351557d71144306dc0f.js",
+      "app-14a1b82c6a512f3aabfc.js",
       "build-js-styles.css",
-      "app-2351557d71144306dc0f.js.map",
+      "app-14a1b82c6a512f3aabfc.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
@@ -345,6 +357,10 @@
     "path---2018-support-pagination-for-gatsby-blog": [
       "path---2018-support-pagination-for-gatsby-blog-48d0edc627325ec990b4.js",
       "path---2018-support-pagination-for-gatsby-blog-48d0edc627325ec990b4.js.map"
+    ],
+    "path---tags-helix": [
+      "path---tags-helix-c437738d72bd191a55e4.js",
+      "path---tags-helix-c437738d72bd191a55e4.js.map"
     ]
   }
 }
