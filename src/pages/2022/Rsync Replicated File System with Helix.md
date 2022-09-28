@@ -8,7 +8,6 @@ excerpt: ""
 # Thread Model
 
 <!-- language:uml -->
-    @startuml
     participant IntegrationTest
     participant FileStore1
     participant HealthReportTimer1
