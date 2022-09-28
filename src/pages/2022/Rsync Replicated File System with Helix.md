@@ -7,87 +7,85 @@ excerpt: ""
 ---
 # Thread Model
 
-```plantuml
-@startuml
-participant IntegrationTest
-participant FileStore1
-participant HealthReportTimer1
-participant HelixTaskExecutor1
-participant FileSystemWatchService_master
-participant FileStore2
+<!-- language:uml -->
+    @startuml
+    participant IntegrationTest
+    participant FileStore1
+    participant HealthReportTimer1
+    participant HelixTaskExecutor1
+    participant FileSystemWatchService_master
+    participant FileStore2
 
-IntegrationTest --> IntegrationTest: startZkServer
-IntegrationTest --> IntegrationTest: setupCluster
-IntegrationTest --> FileStore1 **: start
-FileStore1 --> FileStore1: getHelixManager
-activate FileStore1
-FileStore1 --> HealthReportTimer1 **: create
-FileStore1 --> HelixTaskExecutor1 **: create
-deactivate FileStore1
-
-FileStore1 --> FileStore1: registerStateModelFactory
-FileStore1 --> FileStore1: connect to Helix cluster
-
-FileStore1 --> FileStore1: stateModelFactory.createStateModel\naddExternalViewChangeListener(new Replicator)
-
-FileStore1 --> FileStore1: **OFFLINE -> SLAVE**
-activate FileStore1
-FileStore1 --> FileStore1: replicator1.start()\n(no master yet)
-deactivate FileStore1
-
-IntegrationTest --> FileStore2 **: start
-FileStore2 --> FileStore2: getHelixManager
-FileStore2 --> FileStore2: ...
-FileStore2 --> FileStore2: OFFLINE -> SLAVE
-activate FileStore2
-FileStore2 --> FileStore2: replicator2.start()\n(no master yet)
-FileStore2 --> IntegrationTest: report state change
-deactivate FileStore2
-
-IntegrationTest --> FileStore1: replicator1.onExternalViewChange
-activate FileStore1
-FileStore1 --> FileStore1: replicator1.start()\n(still no master yet)
-deactivate FileStore1
-
-IntegrationTest --> FileStore1: drive to ideal state
-FileStore1 --> FileStore1: **SLAVE -> MASTER**
-activate FileStore1
-FileStore1 --> FileStore1: replicator1.stop()
-FileStore1 --> FileStore1: checkpointFile.findLastRecordProcessed
-FileStore1 --> FileStore1: high watermark update
-FileStore1 --> FileSystemWatchService_master **: create
-FileStore1 --> IntegrationTest: report state change
-deactivate FileStore1
-
-group file change
-    IntegrationTest --> IntegrationTest: write a file
-
-    FileSystemWatchService_master --> FileSystemWatchService_master: alteration listener\n monitor file changes\n死循环
-    FileSystemWatchService_master --> FileStore1: notify changeLogGenerator the file change
+    IntegrationTest --> IntegrationTest: startZkServer
+    IntegrationTest --> IntegrationTest: setupCluster
+    IntegrationTest --> FileStore1 **: start
+    FileStore1 --> FileStore1: getHelixManager
     activate FileStore1
-    FileStore1 --> FileStore1: changeLogGenerator.appendChange
+    FileStore1 --> HealthReportTimer1 **: create
+    FileStore1 --> HelixTaskExecutor1 **: create
     deactivate FileStore1
-end
 
-IntegrationTest --> FileStore2: replicator2.onExternalViewChange
-activate FileStore2
-FileStore2 --> FileStore2: replicator2.start()\n(there is master now)
-activate FileStore2
-FileStore2 --> FileStore2: replicator2.startReplication
-activate FileStore2
-FileStore2 --> BackgroundRsync **: create
-group sync file
-    BackgroundRsync --> BackgroundRsync: rsync\nOnly sync the changeLog from master\n死循环
-    FileStore2 --> FileSystemWatchService_slave **: create
-    FileSystemWatchService_slave --> FileSystemWatchService_slave: alteration listener\n monitor file changes\n死循环
-    FileStore2 --> ChangeLogProcessor **: create
-    ChangeLogProcessor --> ChangeLogProcessor: parse file path from changeLog\nthen, call rsync to sync the file.\n死循环
-end
-deactivate FileStore2
-deactivate FileStore2
-deactivate FileStore2
-@enduml
-```
+    FileStore1 --> FileStore1: registerStateModelFactory
+    FileStore1 --> FileStore1: connect to Helix cluster
+
+    FileStore1 --> FileStore1: stateModelFactory.createStateModel\naddExternalViewChangeListener(new Replicator)
+
+    FileStore1 --> FileStore1: **OFFLINE -> SLAVE**
+    activate FileStore1
+    FileStore1 --> FileStore1: replicator1.start()\n(no master yet)
+    deactivate FileStore1
+
+    IntegrationTest --> FileStore2 **: start
+    FileStore2 --> FileStore2: getHelixManager
+    FileStore2 --> FileStore2: ...
+    FileStore2 --> FileStore2: OFFLINE -> SLAVE
+    activate FileStore2
+    FileStore2 --> FileStore2: replicator2.start()\n(no master yet)
+    FileStore2 --> IntegrationTest: report state change
+    deactivate FileStore2
+
+    IntegrationTest --> FileStore1: replicator1.onExternalViewChange
+    activate FileStore1
+    FileStore1 --> FileStore1: replicator1.start()\n(still no master yet)
+    deactivate FileStore1
+
+    IntegrationTest --> FileStore1: drive to ideal state
+    FileStore1 --> FileStore1: **SLAVE -> MASTER**
+    activate FileStore1
+    FileStore1 --> FileStore1: replicator1.stop()
+    FileStore1 --> FileStore1: checkpointFile.findLastRecordProcessed
+    FileStore1 --> FileStore1: high watermark update
+    FileStore1 --> FileSystemWatchService_master **: create
+    FileStore1 --> IntegrationTest: report state change
+    deactivate FileStore1
+
+    group file change
+        IntegrationTest --> IntegrationTest: write a file
+
+        FileSystemWatchService_master --> FileSystemWatchService_master: alteration listener\n monitor file changes\n死循环
+        FileSystemWatchService_master --> FileStore1: notify changeLogGenerator the file change
+        activate FileStore1
+        FileStore1 --> FileStore1: changeLogGenerator.appendChange
+        deactivate FileStore1
+    end
+
+    IntegrationTest --> FileStore2: replicator2.onExternalViewChange
+    activate FileStore2
+    FileStore2 --> FileStore2: replicator2.start()\n(there is master now)
+    activate FileStore2
+    FileStore2 --> FileStore2: replicator2.startReplication
+    activate FileStore2
+    FileStore2 --> BackgroundRsync **: create
+    group sync file
+        BackgroundRsync --> BackgroundRsync: rsync\nOnly sync the changeLog from master\n死循环
+        FileStore2 --> FileSystemWatchService_slave **: create
+        FileSystemWatchService_slave --> FileSystemWatchService_slave: alteration listener\n monitor file changes\n死循环
+        FileStore2 --> ChangeLogProcessor **: create
+        ChangeLogProcessor --> ChangeLogProcessor: parse file path from changeLog\nthen, call rsync to sync the file.\n死循环
+    end
+    deactivate FileStore2
+    deactivate FileStore2
+    deactivate FileStore2
 
 
 Notes:
