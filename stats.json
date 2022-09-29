@@ -20,6 +20,10 @@
       "path---tags-架构-52a5cd526d4e504b85b4.js",
       "path---tags-架构-52a5cd526d4e504b85b4.js.map"
     ],
+    "path---4": [
+      "path---4-a367b89ddb044e3329f8.js",
+      "path---4-a367b89ddb044e3329f8.js.map"
+    ],
     "path---tags-domain-fronting": [
       "path---tags-domain-fronting-d108e630d07df4ca750a.js",
       "path---tags-domain-fronting-d108e630d07df4ca750a.js.map"
@@ -77,8 +81,8 @@
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js.map"
     ],
     "path---tags": [
-      "path---tags-6e9d89867da8a1766a64.js",
-      "path---tags-6e9d89867da8a1766a64.js.map"
+      "path---tags-1387f7561a0ba49f93f4.js",
+      "path---tags-1387f7561a0ba49f93f4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -144,6 +148,10 @@
       "path---tags-gatsby-aed51dce09cdf4380005.js",
       "path---tags-gatsby-aed51dce09cdf4380005.js.map"
     ],
+    "path---tags-apache": [
+      "path---tags-apache-5ce89d5bcfcd65e1a960.js",
+      "path---tags-apache-5ce89d5bcfcd65e1a960.js.map"
+    ],
     "path---tags-背单词": [
       "path---tags-背单词-f2088edd2168ead84594.js",
       "path---tags-背单词-f2088edd2168ead84594.js.map"
@@ -165,8 +173,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-4ce43cae7ca19bdd434e.js",
-      "path---index-4ce43cae7ca19bdd434e.js.map"
+      "path---index-5593c73246e0f31c651b.js",
+      "path---index-5593c73246e0f31c651b.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -189,8 +197,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-dd04617da197e4f80826.js",
-      "path---2-dd04617da197e4f80826.js.map"
+      "path---2-4928ec2bccd43328b96d.js",
+      "path---2-4928ec2bccd43328b96d.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -221,8 +229,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-5b77a6b03e150d7657b8.js",
-      "path---3-5b77a6b03e150d7657b8.js.map"
+      "path---3-dd5ac96fc4eb9c2dc8eb.js",
+      "path---3-dd5ac96fc4eb9c2dc8eb.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -261,8 +269,8 @@
       "path---2016-jq-f43bced59a834fe526b8.js.map"
     ],
     "path---tags-distributed": [
-      "path---tags-distributed-155e808d7d41f4cd1c43.js",
-      "path---tags-distributed-155e808d7d41f4cd1c43.js.map"
+      "path---tags-distributed-22cfa0b97e91a1930138.js",
+      "path---tags-distributed-22cfa0b97e91a1930138.js.map"
     ],
     "path---tags-微信小程序": [
       "path---tags-微信小程序-66036a7a2ab390ceffaf.js",
@@ -281,9 +289,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-14a1b82c6a512f3aabfc.js",
+      "app-0eb9a0306b01927a47ab.js",
       "build-js-styles.css",
-      "app-14a1b82c6a512f3aabfc.js.map",
+      "app-0eb9a0306b01927a47ab.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
@@ -354,13 +362,17 @@
       "path---2020-state-machine-under-microservices-6917490727a6454efbd9.js",
       "path---2020-state-machine-under-microservices-6917490727a6454efbd9.js.map"
     ],
+    "path---2022-helix-concept-model": [
+      "path---2022-helix-concept-model-abbe20ac03e8ed5f5566.js",
+      "path---2022-helix-concept-model-abbe20ac03e8ed5f5566.js.map"
+    ],
     "path---2018-support-pagination-for-gatsby-blog": [
       "path---2018-support-pagination-for-gatsby-blog-48d0edc627325ec990b4.js",
       "path---2018-support-pagination-for-gatsby-blog-48d0edc627325ec990b4.js.map"
     ],
     "path---tags-helix": [
-      "path---tags-helix-0f72b71230bda186b952.js",
-      "path---tags-helix-0f72b71230bda186b952.js.map"
+      "path---tags-helix-c30e894e3c9964d2371b.js",
+      "path---tags-helix-c30e894e3c9964d2371b.js.map"
     ]
   }
 }
