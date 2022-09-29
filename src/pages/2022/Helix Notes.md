@@ -51,7 +51,8 @@ excerpt: ""
             "N1": "ONLINE"
         }
     }
-}```
+}
+```
 
 注意里面的`simpleFields`, `mapFields`
 
@@ -113,7 +114,7 @@ Helix Agent (manager)有一个消息服务，内置一个线程池 TaskExecutor.
 状态模型其实是我们日常说的状态机。
 
 ## Questions
-- ~~HelixAdmin.addStateModelDef vs HelixManager.getStateMachineEngine().registerStateModelFactory
+- ~~HelixAdmin.addStateModelDef vs HelixManager.getStateMachineEngine().registerStateModelFactory~~
 - How does Helix dispatch jobs? via messaging?
 
 # Helix Recipes
@@ -123,7 +124,7 @@ Helix Agent (manager)有一个消息服务，内置一个线程池 TaskExecutor.
 基于zookeeper，但是能解决：
 - 第一个节点启动就取得所有lock的问题
 
-
+```
 ZkClient.connect -> new ZkEventThread(维护一个BlockingQueue<ZkEvent>，这样ZkClient收到zookeeper的消息之后会发送ZkEvent到eventThread的blocking queue)
 	-> ZkEventThread 会不停地循环，从blocking queue里获取event之后event.run
 		-> event是一个匿名类
@@ -136,5 +137,5 @@ CallbackHandler.handleChildChange -> enqueTask -> invoke ->
 			HelixStateTransitionHandler.handleMessage -> invoke (根据StateModel class里方法上Annotation from，to找到对应的method，然后反射地调用。)
 
 ZKHelixManager.connect -> createClient (初始化ZkClient) -> zkClient.subscribeStateChanges
+```
 
-#helix #open-source
