@@ -21,8 +21,8 @@
       "path---tags-架构-52a5cd526d4e504b85b4.js.map"
     ],
     "path---4": [
-      "path---4-a367b89ddb044e3329f8.js",
-      "path---4-a367b89ddb044e3329f8.js.map"
+      "path---4-3f4af1bb1b9fc64ea126.js",
+      "path---4-3f4af1bb1b9fc64ea126.js.map"
     ],
     "path---tags-domain-fronting": [
       "path---tags-domain-fronting-d108e630d07df4ca750a.js",
@@ -81,8 +81,8 @@
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js.map"
     ],
     "path---tags": [
-      "path---tags-1387f7561a0ba49f93f4.js",
-      "path---tags-1387f7561a0ba49f93f4.js.map"
+      "path---tags-b5764f03d883bdaf8db3.js",
+      "path---tags-b5764f03d883bdaf8db3.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -140,6 +140,10 @@
       "component---src-layouts-index-js-50ec8de892aba8fa2522.js",
       "component---src-layouts-index-js-50ec8de892aba8fa2522.js.map"
     ],
+    "path---2022-server-side-rendering-htmx": [
+      "path---2022-server-side-rendering-htmx-ac5c286fb5a59a1a215f.js",
+      "path---2022-server-side-rendering-htmx-ac5c286fb5a59a1a215f.js.map"
+    ],
     "path---tags-开发环境": [
       "path---tags-开发环境-cd449523d2d014293397.js",
       "path---tags-开发环境-cd449523d2d014293397.js.map"
@@ -173,8 +177,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-c8250c6c01d8b6a9c7b4.js",
-      "path---index-c8250c6c01d8b6a9c7b4.js.map"
+      "path---index-271c3e443328d8cf063b.js",
+      "path---index-271c3e443328d8cf063b.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -197,8 +201,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-4928ec2bccd43328b96d.js",
-      "path---2-4928ec2bccd43328b96d.js.map"
+      "path---2-b9f0906a9013670205cd.js",
+      "path---2-b9f0906a9013670205cd.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -229,8 +233,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-dd5ac96fc4eb9c2dc8eb.js",
-      "path---3-dd5ac96fc4eb9c2dc8eb.js.map"
+      "path---3-08cebe89e699073ed5c0.js",
+      "path---3-08cebe89e699073ed5c0.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -239,6 +243,10 @@
     "path---tags-json": [
       "path---tags-json-92811be8fff09a88a857.js",
       "path---tags-json-92811be8fff09a88a857.js.map"
+    ],
+    "path---tags-htmx": [
+      "path---tags-htmx-d451006c257fab813abf.js",
+      "path---tags-htmx-d451006c257fab813abf.js.map"
     ],
     "path---tags-mysql": [
       "path---tags-mysql-9ebf1697e5abe7a469d5.js",
@@ -251,6 +259,10 @@
     "path---tags-docker": [
       "path---tags-docker-916a4b52dd1b9f7b5265.js",
       "path---tags-docker-916a4b52dd1b9f7b5265.js.map"
+    ],
+    "path---tags-web": [
+      "path---tags-web-f78a57b0d2eb4fb4807b.js",
+      "path---tags-web-f78a57b0d2eb4fb4807b.js.map"
     ],
     "path---2021-iphone": [
       "path---2021-iphone-7d20c22d912935b36d09.js",
@@ -289,9 +301,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-0eb9a0306b01927a47ab.js",
+      "app-c933b0abbe671c44da31.js",
       "build-js-styles.css",
-      "app-0eb9a0306b01927a47ab.js.map",
+      "app-c933b0abbe671c44da31.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
