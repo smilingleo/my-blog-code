@@ -9,7 +9,7 @@ const Footer = () => {
         fontSize: '12px',
       }}
     >
-      © <a href="mailto:leo.wei.liu@gmail.com">Wei Liu</a> | {year}
+      © <a href="mailto:leo.wei.liu@gmail.com">Wei Liu</a> | <a href="/static/game.html">{year}</a>
     </div>
   )
 }
