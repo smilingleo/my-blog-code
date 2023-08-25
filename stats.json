@@ -21,8 +21,8 @@
       "path---tags-架构-52a5cd526d4e504b85b4.js.map"
     ],
     "path---4": [
-      "path---4-c4296b7e040953f57e33.js",
-      "path---4-c4296b7e040953f57e33.js.map"
+      "path---4-1e23593c29acd534ff2a.js",
+      "path---4-1e23593c29acd534ff2a.js.map"
     ],
     "path---tags-domain-fronting": [
       "path---tags-domain-fronting-d108e630d07df4ca750a.js",
@@ -72,6 +72,10 @@
       "path---tags-markdown-3f731a01d4202a8f799c.js",
       "path---tags-markdown-3f731a01d4202a8f799c.js.map"
     ],
+    "path---tags-team": [
+      "path---tags-team-fd6d9abfa97056329ae9.js",
+      "path---tags-team-fd6d9abfa97056329ae9.js.map"
+    ],
     "component---src-templates-tags-js": [
       "component---src-templates-tags-js-9f33bf6d5da76dc9fc95.js",
       "component---src-templates-tags-js-9f33bf6d5da76dc9fc95.js.map"
@@ -85,8 +89,8 @@
       "path---2018-enable-comments-for-gatsby-blog-f99f68e9c0ab939cea9d.js.map"
     ],
     "path---tags": [
-      "path---tags-e9d56c111cb746318284.js",
-      "path---tags-e9d56c111cb746318284.js.map"
+      "path---tags-0db819960f270d118514.js",
+      "path---tags-0db819960f270d118514.js.map"
     ],
     "path---tags-ai": [
       "path---tags-ai-abd3f6d65196543b681b.js",
@@ -103,6 +107,10 @@
     "path---tags-monad": [
       "path---tags-monad-08bc64a626d35c6fdf7a.js",
       "path---tags-monad-08bc64a626d35c6fdf7a.js.map"
+    ],
+    "path---2023-team-topologies": [
+      "path---2023-team-topologies-685a2377d0c19c76c1ba.js",
+      "path---2023-team-topologies-685a2377d0c19c76c1ba.js.map"
     ],
     "path---tags-设计": [
       "path---tags-设计-54ff8fabfd2471a54f7c.js",
@@ -127,6 +135,10 @@
     "path---tags-plantuml": [
       "path---tags-plantuml-ac58b5049b47a53b7262.js",
       "path---tags-plantuml-ac58b5049b47a53b7262.js.map"
+    ],
+    "path---tags-management": [
+      "path---tags-management-cbe916686f055f6b4475.js",
+      "path---tags-management-cbe916686f055f6b4475.js.map"
     ],
     "path---2023-stable-diffusion-prompt-tips": [
       "path---2023-stable-diffusion-prompt-tips-542c08764589898cbeaa.js",
@@ -184,6 +196,10 @@
       "path---tags-背单词-f2088edd2168ead84594.js",
       "path---tags-背单词-f2088edd2168ead84594.js.map"
     ],
+    "path---tags-platform": [
+      "path---tags-platform-2d115fba0a0a17f57325.js",
+      "path---tags-platform-2d115fba0a0a17f57325.js.map"
+    ],
     "path---tags-redis": [
       "path---tags-redis-00f861b784cfc93b4115.js",
       "path---tags-redis-00f861b784cfc93b4115.js.map"
@@ -201,8 +217,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-ce75563ef45287d92d25.js",
-      "path---index-ce75563ef45287d92d25.js.map"
+      "path---index-0e356b70de0119f6f0cc.js",
+      "path---index-0e356b70de0119f6f0cc.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -225,8 +241,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-9a7fc460ce11d6c68d2c.js",
-      "path---2-9a7fc460ce11d6c68d2c.js.map"
+      "path---2-974bdbb0b8e82a1efb9a.js",
+      "path---2-974bdbb0b8e82a1efb9a.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -257,8 +273,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-f8ffdce9a28bf84e810f.js",
-      "path---3-f8ffdce9a28bf84e810f.js.map"
+      "path---3-116d00d198cac41d61c4.js",
+      "path---3-116d00d198cac41d61c4.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -337,9 +353,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-fc071c0216a4a1d7e149.js",
+      "app-8c45144af4b29b5b3d2f.js",
       "build-js-styles.css",
-      "app-fc071c0216a4a1d7e149.js.map",
+      "app-8c45144af4b29b5b3d2f.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
