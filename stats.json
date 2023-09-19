@@ -21,8 +21,8 @@
       "path---tags-架构-52a5cd526d4e504b85b4.js.map"
     ],
     "path---4": [
-      "path---4-1bd2457a2c8198d7f66c.js",
-      "path---4-1bd2457a2c8198d7f66c.js.map"
+      "path---4-2b9e433ef551cc93620d.js",
+      "path---4-2b9e433ef551cc93620d.js.map"
     ],
     "path---tags-domain-fronting": [
       "path---tags-domain-fronting-d108e630d07df4ca750a.js",
@@ -213,8 +213,8 @@
       "path---tags-microservices-0112fc2224c033e9af90.js.map"
     ],
     "path---index": [
-      "path---index-d80cf7b5b833b2a53559.js",
-      "path---index-d80cf7b5b833b2a53559.js.map"
+      "path---index-e2bf590c63ba6c88d316.js",
+      "path---index-e2bf590c63ba6c88d316.js.map"
     ],
     "path---tags-aop": [
       "path---tags-aop-8b645187468ac4620889.js",
@@ -237,8 +237,8 @@
       "path---tags-微服务-e62d27a3e2d319ed8200.js.map"
     ],
     "path---2": [
-      "path---2-978a59d675ff678aa4d4.js",
-      "path---2-978a59d675ff678aa4d4.js.map"
+      "path---2-793165785c636ce61e81.js",
+      "path---2-793165785c636ce61e81.js.map"
     ],
     "path---tags-http-2": [
       "path---tags-http-2-1e2bb5eea06e13e97e21.js",
@@ -269,8 +269,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---3": [
-      "path---3-b6960856b4c40283ebc0.js",
-      "path---3-b6960856b4c40283ebc0.js.map"
+      "path---3-f5c32cff5b1e1a3407a8.js",
+      "path---3-f5c32cff5b1e1a3407a8.js.map"
     ],
     "path---2020-how-to-build-a-serverless-wechat-mini-program": [
       "path---2020-how-to-build-a-serverless-wechat-mini-program-e510cf95a9153254a037.js",
@@ -285,8 +285,8 @@
       "path---tags-json-92811be8fff09a88a857.js.map"
     ],
     "path---tags-htmx": [
-      "path---tags-htmx-d451006c257fab813abf.js",
-      "path---tags-htmx-d451006c257fab813abf.js.map"
+      "path---tags-htmx-2681737fd2fb8be0126c.js",
+      "path---tags-htmx-2681737fd2fb8be0126c.js.map"
     ],
     "path---tags-agi": [
       "path---tags-agi-2e61e83aa2930df001a0.js",
@@ -305,8 +305,8 @@
       "path---tags-docker-916a4b52dd1b9f7b5265.js.map"
     ],
     "path---tags-web": [
-      "path---tags-web-f78a57b0d2eb4fb4807b.js",
-      "path---tags-web-f78a57b0d2eb4fb4807b.js.map"
+      "path---tags-web-7a25e163a095ba7c43c1.js",
+      "path---tags-web-7a25e163a095ba7c43c1.js.map"
     ],
     "path---2021-iphone": [
       "path---2021-iphone-7d20c22d912935b36d09.js",
@@ -344,6 +344,10 @@
       "path---tags-tokio-0c9d93f464e48e752f95.js",
       "path---tags-tokio-0c9d93f464e48e752f95.js.map"
     ],
+    "path---2023-server-side-rendering-htmx": [
+      "path---2023-server-side-rendering-htmx-73facbdec6adfabdea8e.js",
+      "path---2023-server-side-rendering-htmx-73facbdec6adfabdea8e.js.map"
+    ],
     "path---2013-map-flatmap-for": [
       "path---2013-map-flatmap-for-5217dbe666afff96ea5c.js",
       "path---2013-map-flatmap-for-5217dbe666afff96ea5c.js.map"
@@ -353,9 +357,9 @@
       "path---2018-how-to-read-rust-api-doc-49543ee2720909ad20ce.js.map"
     ],
     "app": [
-      "app-2a9f0017b099abaf0cee.js",
+      "app-d9c446b1df3d64ec931c.js",
       "build-js-styles.css",
-      "app-2a9f0017b099abaf0cee.js.map",
+      "app-d9c446b1df3d64ec931c.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-high-order-function": [
