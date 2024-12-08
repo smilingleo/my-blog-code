@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "author": "Leo Liu <leo.wei.liu@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.279",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.17",
     "gatsby-paginate": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.5",
-    "gatsby-source-filesystem": "^1.5.3",
+    "gatsby-source-filesystem": "^5.3.1",
     "gatsby-transformer-remark": "^1.7.15",
     "react-disqus-thread": "^0.4.0"
   },
